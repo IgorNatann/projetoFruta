@@ -16,3 +16,13 @@
 
   height: 400px;
 }
+
+.botao-cor-especial {
+    color: #FFF;
+    background-color: darkred;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+    width: 18rem;
+}
