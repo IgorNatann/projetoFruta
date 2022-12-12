@@ -3,7 +3,7 @@
 }
 
 .cor-titulo {
-    color: darkred;
+  color: darkred;
 }
 
 .font-titulo {
@@ -17,12 +17,22 @@
   height: 400px;
 }
 
+.card-largura {
+  width: 20rem;
+}
+
 .botao-cor-especial {
-    color: #FFF;
-    background-color: darkred;
+  color: #fff;
+  background-color: darkred;
 }
 
 .borda-cor-especial {
-    border-color: darkred;
-    width: 18rem;
+  border-color: darkred;
+}
+
+.img-card {
+  object-fit: cover;
+  /* object-position: 0 65%; */
+
+  height: 200px;
 }
