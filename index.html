@@ -17,7 +17,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand texto-nav" href="#">fruta & fruto</a>
+      <a id="cor-titulo" class="navbar-brand font-titulo" href="#">fruta & fruto</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
@@ -78,7 +78,7 @@
 
     <!-- Titulos -->
     <section class="titulo">
-      <h1 class="text-center font-titulo cor-titulo pt-5">Receitas para economizar e ganhar saúde</h1>
+      <h1 id="cor-titulo" class="text-center font-titulo pt-5">Receitas para economizar e ganhar saúde</h1>
       <p class="text-center text-secondary pb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos,
         economizar,
         ganhar tempo e
@@ -148,18 +148,22 @@
     </section>
   </main>
 
+  <footer class="rodape bg-secondary p-3">
+    <p class="text-light m-0 text-center">Contato: <a class="text-light" href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
+  </footer>
+  
   <!-- Modal -->
   <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
+      <dialog class="modal-content">
+        <header class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-        </div>
-        <div class="modal-body">
+        </header>
+        <main class="modal-body">
           <form>
             <div class="form-group">
               <label for="formGroupExampleInput">Nome:</label>
@@ -174,17 +178,14 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insira aqui seu comentario..."></textarea>
             </div>
           </form>
-        </div>
-        <div class="modal-footer">
+        </main>
+        <footer class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
           <button type="button" class="btn botao-cor-especial">Enviar</button>
-        </div>
-      </div>
+        </footer>
+      </dialog>
     </div>
   </div>
-
-  <footer class="rodape">
-  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
