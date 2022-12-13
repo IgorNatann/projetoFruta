@@ -28,10 +28,10 @@
             <a class="nav-link" href="#">Ínicio<span class="sr-only">(Página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Receitas</a>
+            <a class="nav-link" href="#receitas">Receitas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quem somos</a>
+            <a class="nav-link" href="#quemsomos">Quem somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" data-toggle="modal" data-target="#modal-contato">Contato</a>
@@ -146,6 +146,41 @@
       </div>
 
     </section>
+
+    <!-- Titulo Section Quem somos -->
+    <section id="quemsomos" class="titulo">
+      <h1 id="cor-titulo" class="text-center font-titulo pt-5">Quem somos</h1>
+      <p class="text-center text-secondary pb-5">Conheça a comunidade por trás da iniciativa</p>
+    </section>
+
+    <!-- Cards Quem Somos -->
+    <section class="container-fluid bg-light">
+      <div class="row justify-content-center">
+
+        <article class="card card-largura borda-cor-especial p-0 m-4 col-12 col-md-4">
+          <img class="card-img-top img-card" src="./src/img/andreia.jpg" alt="Imagem de capa do card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Andréia</h5>
+            <p class="card-text">pequena produtora</p>
+          </div>
+        </article>
+
+        <article class="card card-largura borda-cor-especial p-0 m-4 col-12 col-md-4">
+          <img class="card-img-top img-card" src="./src/img/marcela.jpg" alt="Imagem de capa do card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Marcela</h5>
+            <p class="card-text">Chef de cozinha</p>
+          </div>
+        </article>
+
+        <article class="card card-largura borda-cor-especial p-0 m-4 col-12 col-md-4">
+          <img class="card-img-top img-card" src="./src/img/roberta.jpg" alt="Imagem de capa do card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Roberta</h5>
+            <p class="card-text">Criadora de conteúdo</p>
+          </div>
+        </article>
+    </section>
   </main>
 
   <footer class="rodape bg-secondary p-3">
@@ -154,7 +189,7 @@
   </footer>
 
   <!-- Modal -->
-  <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  <section class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <dialog class="modal-content">
@@ -187,7 +222,7 @@
         </footer>
       </dialog>
     </div>
-  </div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
